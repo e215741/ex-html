@@ -1,0 +1,48 @@
+/* CSSスタイルを定義 */
+h1 {
+    color: #0000CD;
+    font-family: "ヒラギノ明朝 ProN W6";
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: transparent;
+    border-left: 9px solid blue;
+    padding: 20px;
+    position: relative;
+    background: #dfefff;
+    box-shadow: 0px 0px 0px 5px #dfefff;
+    border: dashed 2px white;
+    padding: 0.2em 0.5em;
+    color: #454545;
+    }
+
+h1:after {
+    position: absolute;
+    content: '';
+    left: -7px;
+    top: -7px;
+    border-width: 0 0 15px 15px;
+    border-style: solid;
+    border-color: #fff #fff #a8d4ff;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+    }
+
+p {
+    color: #a95ce1;
+    font-size: 16px;
+  }
+
+body {
+    /* ページ全体に画像を設定 */
+    background-image: url('sample.png');
+
+    /* 画像のサイズをカバーするように設定 */
+    background-size: cover;
+
+    /* 画像が中央に配置されるように設定 */
+    background-position: center;
+
+    /* 背景が固定されるように設定（オプション） */
+    background-attachment: fixed;
+}
+
+#phrese { color: #45fe54;}
